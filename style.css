@@ -1,7 +1,6 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +11,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* 3. Navigation bar */
+
 header {
-  background-color: #333; /* Somber darkish color */
+  background-color: #333; /
   padding: 20px;
 }
 
@@ -40,13 +39,13 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* 5. Alternate background colors for sections */
+
 section:nth-child(odd) {
-  background-color: #f2f2f2; /* Light gray */
+  background-color: #f2f2f2; 
 }
 
 section:nth-child(even) {
-  background-color: #e0e0e0; /* Slightly darker gray */
+  background-color: #e0e0e0; 
 }
 
 section {
@@ -54,17 +53,17 @@ section {
   min-height: 300px;
 }
 
-/* 6. Image styling */
+
 img {
-  width: 80%; /* Responsive size */
-  max-width: 600px; /* Ensures the image doesn't get too big */
-  border: 5px solid #ccc; /* Border */
-  border-radius: 15px; /* Rounded corners */
+  width: 80%; 
+  max-width: 600px; 
+  border: 5px solid #ccc; 
+  border-radius: 15px; 
   display: block;
   margin: 20px auto;
 }
 
-/* 7. Form styling */
+
 form {
   display: flex;
   flex-direction: column;
@@ -81,7 +80,7 @@ textarea {
 }
 
 button {
-  background-color: #ff8c00; /* Orangy color */
+  background-color: #ff8c00; 
   color: #fff;
   padding: 15px;
   border: none;
@@ -92,7 +91,7 @@ button:hover {
   background-color: #e07b00;
 }
 
-/* 8. Footer styling */
+
 footer {
   background-color: #222;
   color: #fff;
